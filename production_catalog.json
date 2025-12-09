@@ -1,0 +1,22 @@
+{
+  "contentVersion": 3,
+  "packs": [
+    {
+      "id": "basic_needs_toddler_v1",
+      "label": "Basic Needs",
+      "shortDescription": "Essential communication for hunger, thirst, bathroom, and basic needs",
+      "version": 1,
+      "schemaVersion": 1,
+      "appliesIf": {
+        "kidAgeRange": ["toddler", "early_school"],
+        "kidSpeechLevel": ["emerging", "someWords"]
+      },
+      "resourceFile": "packs/basic_needs_toddler_v1/pack.json",
+      "tags": ["core", "essential", "daily_routines"],
+      "category": "essential",
+      "priority": 0,
+      "sampleWords": ["Hungry", "Thirsty", "Bathroom", "Help", "More"],
+      "approximateSize": 512000
+    }
+  ]
+}
