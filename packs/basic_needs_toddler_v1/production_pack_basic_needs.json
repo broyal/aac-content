@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "basic_needs_toddler_v1",
+  "version": 1,
+  "label": "Basic Needs",
+  "description": "Essential vocabulary for communicating basic needs - hunger, thirst, bathroom, help, and more.",
+  "imageBasePath": "packs/basic_needs_toddler_v1/images/",
+  "images": [
+    {
+      "id": "hungry",
+      "filename": "hungry.png"
+    },
+    {
+      "id": "thirsty",
+      "filename": "thirsty.png"
+    },
+    {
+      "id": "bathroom",
+      "filename": "bathroom.png"
+    },
+    {
+      "id": "help",
+      "filename": "help.png"
+    },
+    {
+      "id": "more",
+      "filename": "more.png"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_basic_needs_v1",
+      "label": "My Needs",
+      "icon": "heart.circle.fill",
+      "colorHex": "#FF9970",
+      "words": [
+        {
+          "id": "word_basic_hungry_v1",
+          "label": "Hungry",
+          "icon": "fork.knife",
+          "symbolID": "basic_hungry"
+        },
+        {
+          "id": "word_basic_thirsty_v1",
+          "label": "Thirsty",
+          "icon": "drop.fill",
+          "symbolID": "basic_thirsty"
+        },
+        {
+          "id": "word_basic_bathroom_v1",
+          "label": "Bathroom",
+          "icon": "toilet.fill",
+          "symbolID": "basic_bathroom"
+        },
+        {
+          "id": "word_basic_help_v1",
+          "label": "Help",
+          "icon": "hand.raised.fill",
+          "symbolID": "basic_help"
+        },
+        {
+          "id": "word_basic_more_v1",
+          "label": "More",
+          "icon": "plus.circle.fill",
+          "symbolID": "basic_more"
+        }
+      ]
+    }
+  ]
+}
